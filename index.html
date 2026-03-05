@@ -19,31 +19,45 @@
                <a href="">Episodes</a>
                <a href="">Host</a>
             </ul>
-            <button class="hidden lg:flex justify-center items-center h-10 px-8 rounded font-seminbold text-white bg-linear-to-r from-yellow-600 to-pink-600 gap-x-2"><div>Subscribe</div><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 inline-block align-middle"> <path fill-rule="evenodd" d="M2 8c0 .414.336.75.75.75h8.69l-1.22 1.22a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 1 0-1.06 1.06l1.22 1.22H2.75A.75.75 0 0 0 2 8Z" clip-rule="evenodd" /></svg></div> </button>
+            <button class="hidden lg:flex justify-center items-center h-10 px-8 rounded-4xl font-seminbold text-white bg-linear-to-r from-yellow-600 to-pink-600 gap-x-2"><div>Subscribe</div><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 inline-block align-middle   animate-pulse"> <path fill-rule="evenodd" d="M2 8c0 .414.336.75.75.75h8.69l-1.22 1.22a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 1 0-1.06 1.06l1.22 1.22H2.75A.75.75 0 0 0 2 8Z" clip-rule="evenodd" /></svg></div> </button>
             <!-- hamburger for small device -->
             <div class="lg:hidden sm:translate-x-25">  <img src="images/hamburger-menu.png" alt="menu">   </div>
         </nav>
 
         <!-- banner section -->
-        <section class=" ">
-            <div class="relative  min-h-screen flex  items-center">
+        <section class="flex flex-col items-center justify-center text-center sm: mt-40">
+            <div class="relative flex  items-center">
                 <!-- bg -->
                 <img src="images/hero-bg.png" alt="" 
-                   class="flex items-center  min-h-screen object-cover">
+                   class="flex items-center object-cover">
            
                 <!-- circle -->
                 <img src="images/hero-circle.png" alt="" 
-                   class="absolute inset-0 m-auto -translate-y-20" >
+                   class="absolute inset-0 m-auto -translate-y-16" >
                 <!-- circle's child -->
                 <img src="images/microphone.png" alt=""
-                    class="absolute inset-0 m-auto -translate-y-20">
+                    class="absolute inset-0 m-auto -translate-y-16">
+
+                <button class="absolute inset-0 m-auto -translate-y-55 translate-x-25 bg-linear-to-r from-yellow-600 to-pink-600 w-15 h-8 rounded-4xl p-1 font-semibold animate-pulse ">New</button>
            
             </div>
-            
-        </section>  
+        
+        
+        <!-- banner text -->
 
-
+            <h1 class="text-4xl font-bold text-white  sm: mt-10">TechWave</h1>
+            <p class="text-gray-200 mt-3">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+            <div class="flex gap-2 mt-3">
+              <button class="hidden lg:flex justify-center items-center h-10 px-8 font-semibold  text-white bg-linear-to-r from-yellow-600 to-pink-600 gap-x-2 rounded-4xl bg-transparent">
+                <span><img src="images/spotify.png" alt="spotify-icon"></span>Listen on Spotify </button>
+              <button class="hidden lg:flex justify-center items-center h-10 px-8 font-semibold text-green-600 border border-green-600 gap-x-2 rounded-4xl bg-transparent"><span><img src="images/message.png" alt="spotify-icon"></span>Subscribe</button>
+             </div>
+    
+    
+        </section> 
+        
     </header>
+
    
    
      
